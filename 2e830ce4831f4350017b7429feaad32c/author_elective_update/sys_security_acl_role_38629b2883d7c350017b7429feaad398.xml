@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-10 07:12:30</sys_created_on>
+        <sys_id>38629b2883d7c350017b7429feaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2212738_scarab_bugs.x_2212738_scarab.manager</sys_name>
+        <sys_package display_value="Scarab" source="x_2212738_scarab">2e830ce4831f4350017b7429feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scarab">2e830ce4831f4350017b7429feaad32c</sys_scope>
+        <sys_security_acl display_value="x_2212738_scarab_bugs">5c629b2883d7c350017b7429feaad304</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_38629b2883d7c350017b7429feaad398</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-10 07:12:30</sys_updated_on>
+        <sys_user_role display_value="x_2212738_scarab.manager" name="x_2212738_scarab.manager">fa830ce4831f4350017b7429feaad366</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Scarab">2e830ce4831f4350017b7429feaad32c</application>
+        <file_path/>
+        <instance_id>0c27205c3b85ee54a36804e0b5e45a48</instance_id>
+        <instance_name>dev330815</instance_name>
+        <name>sys_security_acl_role_38629b2883d7c350017b7429feaad398</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 07:12:30</sys_created_on><sys_id>38629b2883d7c350017b7429feaad398</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2212738_scarab_bugs.x_2212738_scarab.manager</sys_name><sys_package display_value="Scarab" source="x_2212738_scarab">2e830ce4831f4350017b7429feaad32c</sys_package><sys_policy/><sys_scope display_value="Scarab">2e830ce4831f4350017b7429feaad32c</sys_scope><sys_security_acl display_value="x_2212738_scarab_bugs">5c629b2883d7c350017b7429feaad304</sys_security_acl><sys_update_name>sys_security_acl_role_38629b2883d7c350017b7429feaad398</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 07:12:30</sys_updated_on><sys_user_role display_value="x_2212738_scarab.manager" name="x_2212738_scarab.manager">fa830ce4831f4350017b7429feaad366</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1005276118</payload_hash>
+        <record_name>x_2212738_scarab_bugs.x_2212738_scarab.manager</record_name>
+        <reverted_from/>
+        <source>1c01d76483d7c350017b7429feaad333</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-10 07:12:32</sys_created_on>
+        <sys_id>41629b2883d7c350017b7429feaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a08a2937f90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-10 07:12:32</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>01629b28f8d7c3508870c8ec1698a5a1</update_guid>
+        <update_guid_history>01629b28f8d7c3508870c8ec1698a5a1:1005276118</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_2212738_scarab_bugs.x_2212738_scarab.manager">a53ed7a0835bc350017b7429feaad38a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-10 08:04:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>4b829d4587af44149a746b9aca568331</sys_id>
+        <sys_metadata>38629b2883d7c350017b7429feaad398</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2212738_scarab_bugs.x_2212738_scarab.manager</sys_name>
+        <sys_package display_value="Scarab" source="x_2212738_scarab">2e830ce4831f4350017b7429feaad32c</sys_package>
+        <sys_parent display_value="">5c629b2883d7c350017b7429feaad304</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Scarab">2e830ce4831f4350017b7429feaad32c</sys_scope>
+        <sys_scope_delete display_value="">2f2e0ebad59f436fa658e349c219f8a9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_38629b2883d7c350017b7429feaad398</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_38629b2883d7c350017b7429feaad398">41629b2883d7c350017b7429feaad3a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-10 08:04:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

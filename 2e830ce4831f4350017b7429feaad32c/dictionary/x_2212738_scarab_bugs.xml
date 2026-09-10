@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e19e1be0835bc350017b7429feaad3f7" label="Bugs" max_length="40" name="x_2212738_scarab_bugs" type="collection">
+        <element choice="3" label="Severity" max_length="40" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="1" value="high"/>
+                <element inactive_on_update="false" label="Critical" sequence="0" value="critical"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Resolution" max_length="500" name="resolution" type="string"/>
+        <element label="Title" max_length="40" name="title" type="string"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="1" value="high"/>
+                <element inactive_on_update="false" label="Critical" sequence="0" value="critical"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+            </choice>
+        </element>
+        <element label="Project" max_length="32" name="project" reference="x_2212738_scarab_projects" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="6" value="closed"/>
+                <element inactive_on_update="false" label="Fixed" sequence="4" value="fixed"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Assigned" sequence="2" value="assigned"/>
+                <element inactive_on_update="false" label="Duplicate" sequence="8" value="duplicate"/>
+                <element inactive_on_update="false" label="Triaged" sequence="1" value="triaged"/>
+                <element inactive_on_update="false" label="Won't Fix" sequence="9" value="won_t_fix"/>
+                <element inactive_on_update="false" label="Rejected" sequence="7" value="rejected"/>
+                <element inactive_on_update="false" label="Reopened" sequence="5" value="reopened"/>
+                <element inactive_on_update="false" label="In Progress" sequence="3" value="in_progress"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element label="Reported By" max_length="32" name="reported_by" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
+        <index name="index3">
+            <element name="reported_by"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
