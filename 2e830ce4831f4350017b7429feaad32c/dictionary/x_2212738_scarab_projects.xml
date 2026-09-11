@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="40a480a8831f4350017b7429feaad351" label="Projects" max_length="40" name="x_2212738_scarab_projects" type="collection">
-        <element choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice/>
+        <element choice="3" default="planning" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="1" value="active"/>
+                <element inactive_on_update="false" label="Archived" sequence="3" value="archived"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Planning" sequence="0" value="planning"/>
+            </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Description" max_length="500" name="description" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="New Field 1" max_length="32" name="new_field_1" reference="x_2212738_scarab_bugs" type="reference"/>
         <element label="Project Manager" max_length="32" name="project_manager" reference="sys_user" type="reference"/>
         <index name="index">
+            <element name="new_field_1"/>
+        </index>
+        <index name="index2">
             <element name="project_manager"/>
         </index>
     </element>

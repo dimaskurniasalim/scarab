@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section action="DELETE" caption="Bugs" section_id="29a20a68c3cb458dbaf29c836c4cec5f" sys_domain="global" table="x_2212738_scarab_projects" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>12M.x_2212738_scarab_projects.x_2212738_scarab_bugs.project</element>
+      <position>0</position>
+      <sys_id>edf7d11ecb8e4d9e86c127e60e7a0154</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Bugs" display_value="Bugs" name="x_2212738_scarab_projects" sys_domain="global" view="Default view">29a20a68c3cb458dbaf29c836c4cec5f</sys_ui_section>
+      <sys_user/>
+      <type>list</type>
+    </sys_ui_element>
+    <sys_ui_section action="DELETE" apply_defaults="true">
+      <caption>Bugs</caption>
+      <header>false</header>
+      <name>x_2212738_scarab_projects</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>29a20a68c3cb458dbaf29c836c4cec5f</sys_id>
+      <sys_scope display_value="x_2212738_scarab">2e830ce4831f4350017b7429feaad32c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Scarab">2e830ce4831f4350017b7429feaad32c</application>
+        <file_path/>
+        <instance_id>0c27205c3b85ee54a36804e0b5e45a48</instance_id>
+        <instance_name>dev330815</instance_name>
+        <name>sys_ui_section_29a20a68c3cb458dbaf29c836c4cec5f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Bugs" section_id="29a20a68c3cb458dbaf29c836c4cec5f" sys_domain="global" table="x_2212738_scarab_projects" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>12M.x_2212738_scarab_projects.x_2212738_scarab_bugs.project</element>
+      <position>0</position>
+      <sys_id>edf7d11ecb8e4d9e86c127e60e7a0154</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Bugs" display_value="Bugs" name="x_2212738_scarab_projects" sys_domain="global" view="Default view">29a20a68c3cb458dbaf29c836c4cec5f</sys_ui_section>
+      <sys_user/>
+      <type>list</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <caption>Bugs</caption>
+      <header>false</header>
+      <name>x_2212738_scarab_projects</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>29a20a68c3cb458dbaf29c836c4cec5f</sys_id>
+      <sys_scope display_value="x_2212738_scarab">2e830ce4831f4350017b7429feaad32c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>1663846430</payload_hash>
+        <record_name>Projects</record_name>
+        <reverted_from/>
+        <source>043b5f74839b4750017b7429feaad334</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-11 02:29:30</sys_created_on>
+        <sys_id>783b53b4839b4750017b7429feaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a08e4c753e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-11 02:29:30</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>b83b53b4a19b47507b4452fa67607320</update_guid>
+        <update_guid_history>b83b53b4a19b47507b4452fa67607320:1663846430</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-11 03:04:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>066e1780945148bf94715af167966411</sys_id>
+        <sys_metadata>29a20a68c3cb458dbaf29c836c4cec5f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bugs</sys_name>
+        <sys_package display_value="Scarab" source="x_2212738_scarab">2e830ce4831f4350017b7429feaad32c</sys_package>
+        <sys_parent display_value="Projects">40a480a8831f4350017b7429feaad351</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Scarab">2e830ce4831f4350017b7429feaad32c</sys_scope>
+        <sys_scope_delete display_value="">2f2e0ebad59f436fa658e349c219f8a9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_29a20a68c3cb458dbaf29c836c4cec5f</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_29a20a68c3cb458dbaf29c836c4cec5f">783b53b4839b4750017b7429feaad321</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-11 03:04:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
